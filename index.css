@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F6E6CB;
+}
+.hola{
+    color:#603F26;
+    font-family: "Georgia", serif;
+    text-align: center;
+
+    }     
+
+.Hola{
+    width: 100%;
+    padding: 10em;
+    
+}    
+     
+.presentacion{
+    color: #603F26;
+    text-align: center;
+
+}
+.nosotros{
+    h2{
+        color: rgb(145, 49, 145);
+        font-family: "Gill Sans", sans-serif;
+    }
+}
+.Olga{
+    color: #8f44fd;
+    
+}
+.foto{
+    background-image: url(./Images/olga.jpeg);
+   
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #A0937D;
+    padding: 15px;
+}
+
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
